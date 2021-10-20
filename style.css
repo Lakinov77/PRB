@@ -1,0 +1,193 @@
+body{
+    background-color:rgb(215, 238, 241);
+}
+.entero{
+    display: grid;
+    color:  hsl(0, 0%, 100%);
+    grid-template-columns: 46% 2fr;
+    grid-template-rows: 27% 80px;
+    column-gap: 30px;
+    row-gap:50px;
+    justify-content: stretch;
+    margin-top: 2%;
+    margin-left: 2.5%;
+    height:700px;
+}
+
+.encabezado{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.Daniel{
+    background-color: hsl(263, 55%, 52%);
+    border-radius: 10px;
+    position: relative;
+    padding: 2.5%;
+    grid-column-start:1;
+    padding-bottom:325px;
+}
+.img1{
+    align-self: center;
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+}
+h3{
+    font-size: 12px;
+    position: relative;
+    left: 10%;
+}
+.gray{
+    color: hsl(0, 0%, 81%);
+}
+.content{
+    color: hsl(0, 0%,81%);
+}
+
+.Kira{
+    width:15vw;
+    background-color:  hsl(0, 0%, 100%);
+    grid-column-start:3;
+    border-radius:10px;
+    grid-row-start:0;
+    color:black;
+    height:87vh;
+    left:-26%;
+    position: relative;
+    padding-top:2.5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+    margin-right:100px;
+}
+.Jonathan{
+    grid-column-start:2;
+    background-color:hsl(217, 19%, 35%);
+    border-radius: 10px;
+    position: relative;
+    padding: 2.5%;
+    padding-left: 5%;
+    border-radius:10px;
+    width:19vw;
+    height:10px;
+    padding-bottom:325px;
+
+}
+.Jeanette{
+    background-color:  hsl(0, 0%, 100%);
+    color:black;
+    grid-column-start:1;
+    grid-row-start: 3;
+    padding:2.5%;
+    width:16vw;
+    height:295px;
+    border-radius:10px;
+    position: relative;
+}
+.Patrick{
+    grid-row-start:3;
+    border-radius:10px;
+    background-color:  hsl(219, 29%, 14%);
+    height:20vh;
+    left: 20.5vw;
+    width:44vw;
+    padding:2.5%;
+    height:295px;
+    grid-column-start:1;
+    position:relative;
+}
+@media screen and (max-width:1400px) and (min-width:700px)  {
+    .entero{
+        display:flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: flex-start;
+        margin:0;
+    }
+    .Daniel{
+        position: inherit;
+        width:90%;
+        margin:0;
+        left:0;
+
+        height:0%;
+    }
+    .Patrick{
+        position: none;
+        left:0;
+        width:90%;
+        margin:0;
+        height:60%;
+    }
+    .Jonathan{
+        position: none;
+        width:90.5%;
+        padding:2%;
+        margin:0;
+        height:50%;
+        left:0;
+    }
+    .Jeanette{
+        position: none;
+        width:90%;
+        margin:0;
+        left:0;
+        height:50%;
+    }
+    .Kira{
+        position: none;
+        left:0;
+        width:90%;
+        margin:0;
+        padding:2.5%;
+        height:50%;
+    }
+}
+@media screen and (max-width:700px) and (min-width:100px)  {
+    .entero{
+        display:flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: flex-start;
+        margin:0;
+    }
+    .Daniel{
+        position: inherit;
+        width:90%;
+        margin:0;
+        text-align: center;
+        left:0;
+        height:40%;
+    }
+    .Patrick{
+        position: none;
+        left:0;
+        width:90%;
+        margin:0;
+        height:70%;
+    }
+    .Jonathan{
+        position: none;
+        width:90.5%;
+        padding:2%;
+        margin:0;
+        height:60%;
+        left:0;
+    }
+    .Jeanette{
+        position: none;
+        width:90%;
+        margin:0;
+        left:0;
+        height:60%;
+    }
+    .Kira{
+        position: none;
+        left:0;
+        width:90%;
+        margin:0;
+        padding:2.5%;
+        height:100%;
+    }
+}
